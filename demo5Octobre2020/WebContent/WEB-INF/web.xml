@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" 
+
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+
+  
+
+  
+
+  <servlet>
+
+    <servlet-name>infoServlet</servlet-name>
+
+    <servlet-class>fr.poly.info.Informatique</servlet-class>
+
+  </servlet>
+  
+  <servlet-mapping>
+
+    <servlet-name>infoServlet</servlet-name>
+
+    <url-pattern>/Informatique</url-pattern>
+
+  </servlet-mapping>
+
+  
+  
+  <servlet>
+
+    <servlet-name>reseauServlet</servlet-name>
+
+    <servlet-class>fr.poly.info.Reseau</servlet-class>
+
+  </servlet>
+  
+  <servlet-mapping>
+
+    <servlet-name>reseauServlet</servlet-name>
+
+    <url-pattern>/Reseau</url-pattern>
+
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+
+    <servlet-name>mainServlet</servlet-name>
+
+    <servlet-class>fr.poly.Main</servlet-class>
+
+  </servlet>
+  
+  <servlet-mapping>
+
+    <servlet-name>mainServlet</servlet-name>
+
+    <url-pattern>/Main</url-pattern>
+
+  </servlet-mapping>
+
+</web-app>
+</element>
