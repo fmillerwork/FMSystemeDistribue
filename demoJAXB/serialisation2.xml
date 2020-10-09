@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<palette>
+    <peinture label="khorne red">
+        <couleur>rouge</couleur>
+        <gamme>base</gamme>
+    </peinture>
+    <peinture label="kantor blue">
+        <couleur>bleu</couleur>
+        <gamme>base</gamme>
+    </peinture>
+    <peinture label="nuln oil">
+        <couleur>noir</couleur>
+        <gamme>shade</gamme>
+    </peinture>
+</palette>
