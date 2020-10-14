@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <palette>
-    <peinture label="khorne red">
-        <couleur>rouge</couleur>
-        <gamme>base</gamme>
-    </peinture>
-    <peinture label="kantor blue">
-        <couleur>bleu</couleur>
-        <gamme>base</gamme>
-    </peinture>
-    <peinture label="nuln oil">
-        <couleur>noir</couleur>
-        <gamme>shade</gamme>
-    </peinture>
+    <listePeintures>
+        <paint label="khorne red">
+            <catégorie>base</catégorie>
+            <couleur>rouge</couleur>
+        </paint>
+        <paint label="kantor blue">
+            <catégorie>base</catégorie>
+            <couleur>bleu</couleur>
+        </paint>
+        <paint label="nuln oil">
+            <catégorie>shade</catégorie>
+            <couleur>noir</couleur>
+        </paint>
+    </listePeintures>
 </palette>

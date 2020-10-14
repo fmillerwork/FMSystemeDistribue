@@ -3,6 +3,8 @@ package demoJAXB;
 import java.util.ArrayList;
 
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
+import javax.xml.bind.annotation.XmlElements;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
@@ -18,7 +20,10 @@ public class Palette {
 		super();
 	}
 
-	@XmlElement(name="peinture")
+	@XmlElementWrapper(name="listePeintures")
+	@XmlElements({
+		@XmlElement(name="paint", type=Peinture.class)
+	})
 	public ArrayList<Peinture> getListe() {
 		return liste;
 	}

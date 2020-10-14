@@ -6,8 +6,10 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
+import javax.xml.bind.annotation.XmlType;
 
 @XmlRootElement(name="pintura")
+@XmlType(propOrder={"gamme", "couleur"})
 public class Peinture implements Serializable{
 	
 	private String nom;
@@ -45,7 +47,7 @@ public class Peinture implements Serializable{
 		this.couleur = couleur;
 	}
 
-	@XmlElement(name="gamme")
+	@XmlElement(name="catégorie")
 	public String getGamme() {
 		return gamme;
 	}
